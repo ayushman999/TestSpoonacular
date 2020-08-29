@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">TestSpoonacular</string>
+    <string name="your_prediction">Your Predictions</string>
+    <string name="ingridient_list">Ingredient List:</string>
+    <string name="add_ingridients">Add Indgredients</string>
+    <string name="predict">Predict</string>
+    <string name="missing_ing">missing ingredients:</string>
+    <string name="required_ing">used ingredients:</string>
+</resources>

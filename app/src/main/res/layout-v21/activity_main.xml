@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:src="@drawable/try4"
+        android:scaleType="centerCrop"/>
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/gradient1"
+        android:alpha="0.5"
+        />
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    >
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:text="@string/ingridient_list"
+        android:textSize="35sp"
+        android:textStyle="bold"
+        android:textColor="#fff"
+        android:fontFamily="cursive"
+        android:layout_weight="1"
+        android:gravity="center"/>
+    <ListView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:id="@+id/list_item"
+        android:layout_weight="8"
+
+        />
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="70dp"
+        android:layout_marginRight="70dp"
+        android:id="@+id/edit_text"
+        android:hint="@string/add_ingridients"
+        android:gravity="center"
+        android:textColor="#e5e6eb"
+        android:layout_weight="1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:text="@string/add_ingridients"
+        android:id="@+id/add_button"
+        android:textColor="#fff"
+        android:background="@drawable/radius"
+        android:layout_weight="1"
+        />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_marginRight="70dp"
+        android:layout_marginLeft="70dp"
+        android:text="@string/predict"
+        android:id="@+id/predict_button"
+        android:textColor="#fff"
+        android:layout_marginTop="5dp"
+        android:background="@drawable/radius"
+        android:elevation="2dp"
+        android:layout_marginBottom="10dp"
+        android:layout_weight="1"
+        />
+
+</LinearLayout>
+</RelativeLayout>
