@@ -23,7 +23,7 @@ import java.util.List;
 
 public class Prediction extends AppCompatActivity {
 private static final String baseURL="https://api.spoonacular.com/recipes/findByIngredients?ingredients=";
-private static final String KEY="&apiKey=5014df46d71648219de5bada69aa5ded";
+private static final String KEY="&apiKey=YOUR_API_KEY";
 spoonacularAdapter mAdapter;
 ProgressBar pb;
     @Override
